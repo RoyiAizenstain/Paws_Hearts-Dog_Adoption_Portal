@@ -1,0 +1,39 @@
+.adopt-page {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.dog-preview {
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.dog-preview img {
+    width: 100%;
+    max-width: 360px;
+    height: 260px;
+    margin: 0 auto 16px;
+    object-fit: cover;
+    border-radius: 14px;
+    background-color: #e5e7eb;
+}
+
+.dog-preview h2 {
+    color: #111827;
+}
+
+#adoption-form {
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+#adoption-form button {
+    width: 100%;
+    margin-top: 10px;
+}
