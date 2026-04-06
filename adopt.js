@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", async function () {
             return;
         }
 
-        document.getElementById("page-title").textContent = `Adopt ${dog.name}`;
+        document.getElementById("dog-name").textContent = dog.name;
+        document.getElementById("dog-preview-name").textContent = dog.name;
         document.getElementById("dog-image").src = dog.first_image_url;
         document.getElementById("dog-image").alt = dog.name;
-        document.getElementById("dog-name").textContent = dog.name;
 
-        const form = document.getElementById("adoption-form");
+        const form = document.getElementById("adopt-form");
 
         form.addEventListener("submit", async function (event) {
             event.preventDefault();
@@ -22,11 +22,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             const fullname = document.getElementById("fullname").value;
             const phone = document.getElementById("phone").value;
 
-            await fetch(`${API_BASE_URL}/dogs/${id}`, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ email, fullname, phone })
-            });
+            await postAdoption(id, { email, fullname, phone });
 
             window.location.href = `thankyou.html?id=${id}`;
         });

@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://44610655-f654-4551-9a9e-47bdc9fb1f76.mock.pstmn.io";
+const API_BASE = "https://44610655-f654-4551-9a9e-47bdc9fb1f76.mock.pstmn.io";
 
 function getDogIdFromURL() {
     const params = new URLSearchParams(window.location.search);
@@ -19,7 +19,7 @@ function formatBoolean(value) {
 }
 
 async function fetchAllDogs() {
-    const response = await fetch(`${API_BASE_URL}/dogs`);
+    const response = await fetch(`${API_BASE}/dogs`);
 
     if (!response.ok) {
         throw new Error("Failed to fetch dogs");
@@ -29,10 +29,24 @@ async function fetchAllDogs() {
 }
 
 async function fetchDogById(id) {
-    const response = await fetch(`${API_BASE_URL}/dogs/${id}`);
+    const response = await fetch(`${API_BASE}/dogs/${id}`);
 
     if (!response.ok) {
         throw new Error("Failed to fetch dog");
+    }
+
+    return await response.json();
+}
+
+async function postAdoption(arrayIndex, payload) {
+    const response = await fetch(`${API_BASE}/dogs/${arrayIndex}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+    });
+
+    if (!response.ok) {
+        throw new Error("Failed to submit adoption");
     }
 
     return await response.json();
