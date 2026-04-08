@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sI \"http://localhost:3000/dog.html?id=5\")",
+      "Bash(curl -s \"http://localhost:3000/dog.html?id=5\")",
+      "Bash(netstat -ano)",
+      "mcp__playwright__browser_evaluate"
+    ]
+  }
+}

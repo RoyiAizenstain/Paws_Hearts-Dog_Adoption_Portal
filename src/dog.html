@@ -4,13 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dog Details</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="dog.css" />
 </head>
 <body>
 <div class="container">
   <header class="page-header">
-    <h1 id="page-title">Dog Details</h1>
+    <h1 id="dog-heading">Dog Details</h1>
   </header>
 
   <main class="dog-details-page">
@@ -34,18 +38,19 @@
         </div>
 
         <div class="dog-actions">
-          <a id="adopt-link" href="" class="button-link">Adopt Me!</a>
+          <a id="adopt-btn" href="" class="button-link">Adopt Me!</a>
+          <button id="fav-btn" type="button" aria-label="Toggle favorite">🤍</button>
         </div>
       </div>
     </div>
 
     <div class="navigation-buttons">
-      <a id="prev-btn" href="" class="button-link">Prev</a>
-      <a id="next-btn" href="" class="button-link">Next</a>
+      <button id="prev-btn">Prev</button>
+      <button id="next-btn">Next</button>
     </div>
 
     <div class="back-link-wrapper">
-      <a href="index.html">Back to list</a>
+      <a id="back-link" href="index.html">Back to list</a>
     </div>
   </main>
 </div>

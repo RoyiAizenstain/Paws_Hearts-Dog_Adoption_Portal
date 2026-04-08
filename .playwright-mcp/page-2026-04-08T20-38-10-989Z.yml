@@ -1,0 +1,45 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]: 🐾 Paws & Hearts
+    - link "❤️ 1" [ref=e46] [cursor=pointer]:
+      - /url: "#"
+  - banner [ref=e6]:
+    - heading "Dogs for Adoption" [level=1] [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - img "Brandi" [ref=e28]
+        - heading "Brandi" [level=2] [ref=e29]
+        - link "More Info" [ref=e12] [cursor=pointer]:
+          - /url: dog.html?id=0
+        - button "Toggle favorite" [active] [ref=e30] [cursor=pointer]: ❤️
+      - generic [ref=e13]:
+        - img "24-063 Juno" [ref=e31]
+        - heading "24-063 Juno" [level=2] [ref=e32]
+        - link "More Info" [ref=e15] [cursor=pointer]:
+          - /url: dog.html?id=1
+        - button "Toggle favorite" [ref=e33] [cursor=pointer]: 🤍
+      - generic [ref=e16]:
+        - img "24-103 Monty" [ref=e34]
+        - heading "24-103 Monty" [level=2] [ref=e35]
+        - link "More Info" [ref=e18] [cursor=pointer]:
+          - /url: dog.html?id=2
+        - button "Toggle favorite" [ref=e36] [cursor=pointer]: 🤍
+      - generic [ref=e19]:
+        - img "25-088 Ez" [ref=e37]
+        - heading "25-088 Ez" [level=2] [ref=e38]
+        - link "More Info" [ref=e21] [cursor=pointer]:
+          - /url: dog.html?id=3
+        - button "Toggle favorite" [ref=e39] [cursor=pointer]: 🤍
+      - generic [ref=e22]:
+        - img "Jimmy" [ref=e40]
+        - heading "Jimmy" [level=2] [ref=e41]
+        - link "More Info" [ref=e24] [cursor=pointer]:
+          - /url: dog.html?id=4
+        - button "Toggle favorite" [ref=e42] [cursor=pointer]: 🤍
+      - generic [ref=e25]:
+        - img "25-067 Bodger" [ref=e43]
+        - heading "25-067 Bodger" [level=2] [ref=e44]
+        - link "More Info" [ref=e27] [cursor=pointer]:
+          - /url: dog.html?id=5
+        - button "Toggle favorite" [ref=e45] [cursor=pointer]: 🤍

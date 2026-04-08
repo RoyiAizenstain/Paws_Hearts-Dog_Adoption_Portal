@@ -1,0 +1,28 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "Dog Details" [level=1] [ref=e4]
+  - main [ref=e5]:
+    - generic [ref=e8]:
+      - heading [level=2]
+      - paragraph [ref=e9]:
+        - strong [ref=e10]: "Breed:"
+      - paragraph [ref=e11]:
+        - strong [ref=e12]: "Age:"
+      - paragraph [ref=e13]:
+        - strong [ref=e14]: "Sex:"
+      - paragraph [ref=e15]:
+        - strong [ref=e16]: "House Trained:"
+      - paragraph [ref=e17]:
+        - strong [ref=e18]: "Vaccinated:"
+      - generic [ref=e19]:
+        - heading "Story" [level=3] [ref=e20]
+        - paragraph
+      - generic [ref=e21]:
+        - link "Adopt Me!" [ref=e22] [cursor=pointer]:
+          - /url: ""
+        - button "Toggle favorite" [ref=e23] [cursor=pointer]: 🤍
+    - generic [ref=e24]:
+      - button "Prev" [ref=e25] [cursor=pointer]
+      - button "Next" [ref=e26] [cursor=pointer]
+    - link "Back to list" [ref=e28] [cursor=pointer]:
+      - /url: index.html

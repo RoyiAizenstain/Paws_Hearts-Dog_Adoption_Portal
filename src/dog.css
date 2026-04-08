@@ -1,0 +1,100 @@
+.dog-details-page {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.dog-details-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    background-color: var(--card);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    box-shadow: var(--shadow-md);
+}
+
+.dog-image-wrapper {
+    flex: 1 1 350px;
+}
+
+.dog-image-wrapper img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    background-color: #f1d9c4;
+}
+
+.dog-info {
+    flex: 1 1 320px;
+}
+
+.dog-info h2 {
+    font-size: 1.9rem;
+    margin-bottom: 18px;
+    color: var(--text);
+    font-weight: 800;
+}
+
+.dog-info p {
+    margin-bottom: 10px;
+    color: var(--text);
+}
+
+.dog-info p strong {
+    color: var(--primary-dark);
+}
+
+.dog-story-section {
+    margin-top: 22px;
+}
+
+.dog-story-section h3 {
+    margin-bottom: 10px;
+    color: var(--primary-dark);
+    font-weight: 700;
+}
+
+.dog-actions {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+#fav-btn {
+    background: var(--bg);
+    border: 2px solid #f1d9c4;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    font-size: 1.6rem;
+    line-height: 1;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#fav-btn:hover {
+    transform: scale(1.1);
+    background: #ffffff;
+    box-shadow: var(--shadow-md);
+}
+
+@keyframes pop {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.35); }
+    100% { transform: scale(1); }
+}
+
+#fav-btn.pop {
+    animation: pop 0.3s ease;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}

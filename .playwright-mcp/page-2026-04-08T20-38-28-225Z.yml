@@ -1,0 +1,33 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "Brandi Details" [level=1] [ref=e4]
+  - main [ref=e5]:
+    - generic [ref=e6]:
+      - img "Brandi" [ref=e8]
+      - generic [ref=e9]:
+        - heading "Brandi" [level=2] [ref=e10]
+        - paragraph [ref=e11]:
+          - strong [ref=e12]: "Breed:"
+          - text: Labrador Retriever & American Staffordshire Terrier Mix
+        - paragraph [ref=e13]:
+          - strong [ref=e14]: "Age:"
+          - text: Adult (3–8 years)
+        - paragraph [ref=e15]:
+          - strong [ref=e16]: "Sex:"
+          - text: Female
+        - paragraph [ref=e17]:
+          - strong [ref=e18]: "House Trained:"
+          - text: "Yes"
+        - paragraph [ref=e19]:
+          - strong [ref=e20]: "Vaccinated:"
+          - text: "Yes"
+        - generic [ref=e21]:
+          - heading "Story" [level=3] [ref=e22]
+          - paragraph [ref=e23]: Brandi is a loving, 60‑lb adult dog who spent five months at a city shelter before being rescued. She is affectionate but can be sensitive to loud noises and would do best in a calm home. She gets along with dogs and cats but should meet any animals in the new home first. Brandi loves people but may be too playful for very small children. She has seasonal allergies and requires an application before meeting her. Her foster says she is well‑adjusted and happy with a routine.
+        - generic [ref=e24]:
+          - link "Adopt Me!" [ref=e25] [cursor=pointer]:
+            - /url: adopt.html?id=0
+          - button "Toggle favorite" [ref=e26] [cursor=pointer]: ❤️
+    - button "Next" [ref=e28] [cursor=pointer]
+    - link "Back to list" [ref=e30] [cursor=pointer]:
+      - /url: index.html

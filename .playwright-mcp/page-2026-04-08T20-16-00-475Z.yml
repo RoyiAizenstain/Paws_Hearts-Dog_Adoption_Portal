@@ -1,0 +1,17 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "Adopt" [level=1] [ref=e4]: Adopt
+  - main [ref=e5]:
+    - generic [ref=e6]:
+      - heading [level=2]
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: Email
+        - textbox "Email" [ref=e10]
+      - generic [ref=e11]:
+        - generic [ref=e12]: Full Name
+        - textbox "Full Name" [ref=e13]
+      - generic [ref=e14]:
+        - generic [ref=e15]: Phone Number
+        - textbox "Phone Number" [ref=e16]
+      - button "Send" [ref=e17] [cursor=pointer]

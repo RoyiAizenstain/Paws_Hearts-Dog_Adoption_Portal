@@ -1,0 +1,9 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "Thank You!" [level=1] [ref=e4]
+  - main [ref=e5]:
+    - generic [ref=e6]:
+      - heading [level=2]
+      - paragraph [ref=e7]: Thank you for your enquiry!
+      - link "Back to home" [ref=e8] [cursor=pointer]:
+        - /url: index.html

@@ -1,0 +1,33 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]: 🐾 Paws & Hearts
+    - link "❤️ 0" [ref=e5] [cursor=pointer]:
+      - /url: "#"
+  - banner [ref=e6]:
+    - heading "Dogs for Adoption" [level=1] [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - heading [level=2] [ref=e11]
+        - link "More Info" [ref=e12] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=e13]:
+        - heading [level=2] [ref=e14]
+        - link "More Info" [ref=e15] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=e16]:
+        - heading [level=2] [ref=e17]
+        - link "More Info" [ref=e18] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=e19]:
+        - heading [level=2] [ref=e20]
+        - link "More Info" [ref=e21] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=e22]:
+        - heading [level=2] [ref=e23]
+        - link "More Info" [ref=e24] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=e25]:
+        - heading [level=2] [ref=e26]
+        - link "More Info" [ref=e27] [cursor=pointer]:
+          - /url: ""
