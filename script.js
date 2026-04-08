@@ -35,7 +35,12 @@ async function fetchDogById(id) {
         throw new Error("Failed to fetch dog");
     }
 
-    return await response.json();
+    const data = await response.json();
+    // Mock may return the full array — index into it if so
+    if (Array.isArray(data)) {
+        return data[id];
+    }
+    return data;
 }
 
 async function postAdoption(arrayIndex, payload) {
